@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  font-family:'Gill Sans';
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: center;
+}
+#Instructions {
+    padding: 10px;
+  color:rgb(243, 131, 40);
+  border-radius: 12px;
+  background-color: #000000;
+  max-width: 500px;
+}
+
+#game-frame {
+  margin-bottom: 0px !important;
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 1080px;
+  background: #303030;
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(172, 160, 160);
+  border-radius: 12px;
+}
+
+#h1 {
+background-color: #1e1e1e;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  border-radius: 12px;
+  font-size: 50px;
+}
+
+#scoreboard {
+  background-color: #1e1e1e;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  border-radius: 12px;
+}
+
+#Duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+}
+#DurationBox {
+  margin-right: 50px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #414040;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+#Start {
+  margin-right: 10px;
+  color: rgb(33, 131, 14);
+  background-color: #635f5f;
+  padding: 10px;
+}
+
+#Reset {
+  color: rgb(238, 214, 0);
+  background-color: #63625f;
+  padding: 10px;
+}
+
+#game-screen {
+  width: 90%;
+  height: 65%;
+  background-color: #635f5f;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
