@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="game-frame">
-      <dialog id="Instructions">
+      <dialog id="instructions">
         <p>
           Welcome to the Aim Trainer! The goal of this game is to click on the
           targets that appear on the screen as quickly as possible. You can
@@ -22,28 +22,27 @@
           randomly on the canvas. Click on the targets to score points. When the
           time is up, your final score will be displayed.
         </p>
-        <button autofocus id="Instructions">Close</button>
+        <button autofocus id="instructions">Close</button>
       </dialog>
-      <button id="Instructions">Instructions</button>
+      <button id="instructions">Instructions</button>
       <header>
         <h1 id="h1">Aim Trainer</h1>
-        <div id="scoreboard">
-          <h1>Timer:</h1>
-          <h1>Score:</h1>
+        <div class="info">
+          <span id="time">Timer: 0</span>
+          <span id="score">Score: 0</span>
         </div>
-        <div id="Duration">
+        <div class="actions">
           <h1>Duration</h1>
-          <select id="DurationBox">
-            <option value="" selected>--Please choose an option--</option>
-            <option value="10">10</option>
-            <option value="30">30</option>
+          <select id="duration-box">
+            <option value="10"selected>10</option>
+            <option value="30" >30</option>
             <option value="60">60</option>
           </select>
-          <button id="Start">Start</button>
-          <button id="Reset">Reset</button>
+          <button id="start-btn">Start</button>
+          <button id="reset-btn">Reset</button>
         </div>
       </header>
-      <canvas id="game-screen"></canvas>
+      <canvas id="game-screen" width="1100" height="700"></canvas>
     </div>
   </body>
 </html>

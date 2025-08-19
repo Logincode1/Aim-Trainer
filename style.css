@@ -1,20 +1,21 @@
 body {
+  margin: 0;
   display: flex;
-  font-family:'Gill Sans';
+  font-family: "Gill Sans";
   background-color: #000000;
   color: #ffffff;
   justify-content: center;
+  align-items: center;
 }
-#Instructions {
-    padding: 10px;
-  color:rgb(243, 131, 40);
+#instructions {
+  padding: 10px;
+  color: rgb(243, 131, 40);
   border-radius: 12px;
   background-color: #000000;
   max-width: 500px;
 }
 
 #game-frame {
-  margin-bottom: 0px !important;
   text-align: center;
   max-width: 1200px;
   width: 100%;
@@ -26,14 +27,13 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   color: rgb(172, 160, 160);
   border-radius: 12px;
 }
 
 #h1 {
-background-color: #1e1e1e;
+  background-color: #1e1e1e;
   max-width: 400px;
   display: flex;
   justify-content: space-evenly;
@@ -41,17 +41,7 @@ background-color: #1e1e1e;
   border-radius: 12px;
   font-size: 50px;
 }
-
-#scoreboard {
-  background-color: #1e1e1e;
-  max-width: 600px;
-  display: flex;
-  justify-content: space-evenly;
-  width: 500px;
-  border-radius: 12px;
-}
-
-#Duration {
+.actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,7 +49,18 @@ background-color: #1e1e1e;
   background-color: #1e1e1e;
   border-radius: 12px;
 }
-#DurationBox {
+
+.info {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  gap: 20px;
+}
+
+#duration-box {
   margin-right: 50px;
   margin-left: 20px;
   display: flex;
@@ -71,23 +72,24 @@ background-color: #1e1e1e;
   border-radius: 12px;
 }
 
-#Start {
+#start-btn {
   margin-right: 10px;
   color: rgb(33, 131, 14);
   background-color: #635f5f;
   padding: 10px;
+  border-radius: 10px;
 }
 
-#Reset {
+#reset-btn {
   color: rgb(238, 214, 0);
   background-color: #63625f;
   padding: 10px;
+  border-radius: 10px;
 }
 
-#game-screen {
-  width: 90%;
-  height: 65%;
+canvas {
   background-color: #635f5f;
-  border-radius: 12px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: crosshair;
 }
