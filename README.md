@@ -15,3 +15,9 @@ I chose to make this app because I wanted a practical and useful tool that also 
 - Targets have exploding animation when shot.
 - Targets move around on canvas.
 - Adjustable difficulties (target size, targets dissappear after short time, targets must be clicked in order they appeared).
+
+#
+
+#### Attributions
+
+Audio files sourced from publically available database.
