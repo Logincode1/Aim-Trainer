@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 #instructions {
   padding: 10px;
   color: rgb(243, 131, 40);
@@ -31,14 +32,14 @@ header {
   background-color: #252525;
 }
 
-#h1 {
+h1 {
   font-size: 50px;
 }
+
 .actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   border-radius: 12px;
 }
 
@@ -46,9 +47,10 @@ header {
   font-size: 20px;
   padding: 30px;
   border-radius: 12px;
-  span + span {
-  margin-left: 3em;
 }
+
+.info span + span {
+  margin-left: 3em;
 }
 
 #duration-box {
@@ -60,19 +62,19 @@ header {
   border-radius: 12px;
 }
 
-#start-btn {
-  margin-right: 10px;
-  color: rgb(33, 131, 14);
-  background-color: #635f5f;
+#start-btn, #reset-btn {
   padding: 10px;
   border-radius: 10px;
+}
+
+#start-btn {
+  color: rgb(33, 131, 14);
+  background-color: #635f5f;
 }
 
 #reset-btn {
   color: rgb(238, 214, 0);
   background-color: #63625f;
-  padding: 10px;
-  border-radius: 10px;
 }
 
 canvas {
